@@ -17,6 +17,11 @@ Generalized Function:
 Optimum Five-Key chart rating function:
 `FiveLevelCalc(notes,scratch,length)`
 
+Optimum Five-Key chart rating weights and multiplier:
+  -Standard Note weight: 2
+  -Scratch Note weight: 3
+  -Multiplier: 4/7 (Yes, that's 4 divided by 7)
+
 The formula that calculates the score:
 ``(notes*noteWeight+scratch*scratchWeight)/length*multiplier```
 
