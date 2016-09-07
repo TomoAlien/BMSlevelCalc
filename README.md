@@ -2,12 +2,12 @@
 TomoAlien's BMS Level Calculator
 
 It's a small script written in JavaScript that allows for easy calculation of difficulty level for BMS songs based on 6 parameters:
-  *Amount of Standard Notes
-  *Amount of Scratch Notes
-  *Song Length (in seconds)
-  *Weight for Standard Note
-  *Weight for Scratch Note
-  *Overall difficulty meter multiplier
+  * Amount of Standard Notes
+  * Amount of Scratch Notes
+  * Song Length (in seconds)
+  * Weight for Standard Note
+  * Weight for Scratch Note
+  * Overall difficulty meter multiplier
   
 Weights change how much does the type of note affect the result.
 
@@ -18,9 +18,9 @@ Optimum Five-Key chart rating function:
 `FiveLevelCalc(notes,scratch,length)`
 
 Optimum Five-Key chart rating weights and multiplier (as determined by testing):
-  *Standard Note weight: 2
-  *Scratch Note weight: 3
-  *Multiplier: 4/7 (Yes, that's 4 divided by 7)
+  * Standard Note weight: 2
+  * Scratch Note weight: 3
+  * Multiplier: 4/7 (Yes, that's 4 divided by 7)
 
 The formula that calculates the score:
 ``(notes*noteWeight+scratch*scratchWeight)/length*multiplier```
