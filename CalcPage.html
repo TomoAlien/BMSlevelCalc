@@ -1,0 +1,29 @@
+<head>
+<title>TomoAlien's BMS Level Calculator</title>
+
+<style>
+body{font-family:monospace;}
+</style>
+
+<script language="javascript" src="BMSlevelcalc.js"></script>
+
+<script>
+function checks(){
+notes = document.getElementById("notes").value;
+scratch = document.getElementById("scratch").value;
+length = document.getElementById("length").value;
+document.getElementById("result").innerHTML = FiveLevelCalc(notes,scratch,length);
+}
+</script>
+
+</head>
+
+<body>
+<b>TomoAlien's BMS Level Calculator</b><br>
+<table onkeyup="checks()">
+<tr><td>Notes:</td>				<td><input type="number" id="notes"></td> 	</tr>
+<tr><td>Scratches:</td>			<td><input type="number" id="scratch"></td>	</tr>
+<tr><td>Length (Seconds):</td>	<td><input type="number" id="length"></td>	</tr>
+<tr><td>Result:</td>			<td><b><div id="result"></div></b></td>	</tr>
+</table>
+</body>
